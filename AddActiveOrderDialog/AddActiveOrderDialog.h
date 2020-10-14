@@ -11,6 +11,9 @@ public:
 	AddActiveOrderDialog(PyObject *pAddOrderFunction, QWidget *parent = Q_NULLPTR);
 	~AddActiveOrderDialog();
 
+private slots:
+	void AddOrder();
+
 private:
 	Ui::AddActiveOrderDialog *ui;
 	PyObject* pFunction;
