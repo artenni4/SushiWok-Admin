@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Access for Admin SDK
+sushiwokserver-firebase-adminsdk-hrb2k-b1e0eee09d.json
+
+# Unnecessary logs
+scripts.log
+
 # User-specific files
 *.rsuser
 *.suo
